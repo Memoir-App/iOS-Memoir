@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="U9T-CY-2Qv">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LaunchViewController-->
+        <scene sceneID="6qC-De-xui">
+            <objects>
+                <viewController storyboardIdentifier="LaunchViewController" title="LaunchViewController" id="U9T-CY-2Qv" customClass="LaunchViewController" customModule="memoir" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y3B-EL-y0V">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="aTc-av-hMw">
+                                <rect key="frame" x="93" y="363.66666666666669" width="207" height="75"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TransparentLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hfQ-CP-E1i">
+                                        <rect key="frame" x="0.0" y="12.333333333333314" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="fyL-IS-CjZ"/>
+                                            <constraint firstAttribute="height" constant="50" id="t64-Oz-f7V"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Memoir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3s-0X-UiJ">
+                                        <rect key="frame" x="65" y="12" width="142" height="51"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42.5"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="jht-Hw-4OS"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FG2-XF-pGK"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aTc-av-hMw" firstAttribute="centerX" secondItem="y3B-EL-y0V" secondAttribute="centerX" id="cO3-Z9-6nX"/>
+                            <constraint firstItem="aTc-av-hMw" firstAttribute="centerY" secondItem="y3B-EL-y0V" secondAttribute="centerY" constant="-25" id="y5h-nQ-iVW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kg9-ry-uGv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.307692307692307" y="374.64454976303318"/>
+        </scene>
+        <!--DelegateViewController-->
+        <scene sceneID="jvf-M4-epG">
+            <objects>
+                <viewController storyboardIdentifier="DelegateViewController" title="DelegateViewController" id="k28-EU-Zbk" customClass="DelegateViewController" customModule="memoir" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0j8-ca-GIe">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="HZ4-Az-fHa">
+                                <rect key="frame" x="93" y="363.66666666666669" width="207" height="75"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TransparentLogo" translatesAutoresizingMaskIntoConstraints="NO" id="1B6-BE-htW">
+                                        <rect key="frame" x="0.0" y="12.333333333333314" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="KKn-jT-Dia"/>
+                                            <constraint firstAttribute="height" constant="50" id="jfO-4b-eeo"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Memoir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRF-Oh-uZ8">
+                                        <rect key="frame" x="65" y="12" width="142" height="51"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="42.5"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="uVE-7r-ORY"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XE5-aZ-xf1"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HZ4-Az-fHa" firstAttribute="centerY" secondItem="0j8-ca-GIe" secondAttribute="centerY" constant="-25" id="64k-7x-whg"/>
+                            <constraint firstItem="HZ4-Az-fHa" firstAttribute="centerX" secondItem="0j8-ca-GIe" secondAttribute="centerX" id="FVB-9c-HN8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="memoirLabel" destination="jRF-Oh-uZ8" id="68M-yS-1Sg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ba6-Jl-qEZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="768" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TransparentLogo" width="140.33332824707031" height="139"/>
+    </resources>
+</document>
