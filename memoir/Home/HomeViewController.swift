@@ -19,7 +19,6 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @IBOutlet weak var collectionView: UICollectionView!
 
-    
     @IBOutlet weak var homeView: UIView!
     
     @IBOutlet weak var homeImage: UIImageView!
